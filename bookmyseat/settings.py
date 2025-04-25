@@ -90,7 +90,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-DATABASES['default'] = dj_database_url.parse('postgresql://bookmyshow_y2np_user:sZeHtxiY8GSCEkk2dhmVXwxJbDHultz5@dpg-d05spe95pdvs73emp4n0-a.oregon-postgres.render.com/bookmyshow_y2np')
+DATABASES['default'] = dj_database_url.parse('postgresql://bookmyseat_52jn_user:LGSAQWPMJII2oqbsuglrQHOvSYrdmueG@dpg-d05u7ghr0fns73enpg0g-a.oregon-postgres.render.com/bookmyseat_52jn')
 # 
 
 # Password validation
@@ -137,4 +137,3 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-STATICFILES_DIRS = [os.path.join(BASE_DIR, 'static')]
